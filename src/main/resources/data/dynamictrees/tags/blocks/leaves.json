@@ -1,0 +1,7 @@
+{
+  "values": [
+    { "id": "dt_super_block_world:amanita_leaves", "required": false },
+    { "id": "dt_super_block_world:mayoi_leaves", "required": false },
+    { "id": "dt_super_block_world:subcon_palm_leaves", "required": false }
+  ]
+}

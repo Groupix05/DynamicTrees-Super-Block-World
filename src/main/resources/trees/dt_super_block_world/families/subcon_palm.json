@@ -1,0 +1,11 @@
+{
+  "type": "palm",
+  "primitive_log": "super_block_world:subcon_palm",
+  "common_leaves": "dt_super_block_world:subcon_palm",
+  "common_species": "dt_super_block_world:subcon_palm",
+  "generate_stripped_branch": false,
+  "loot_volume_multiplier": 5.0,
+  "max_branch_radius": 6,
+  "primary_thickness": 2,
+  "secondary_thickness": 3
+}

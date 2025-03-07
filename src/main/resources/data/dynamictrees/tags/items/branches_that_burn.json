@@ -1,0 +1,7 @@
+{
+  "values": [
+    { "id": "dt_super_block_world:amanita_branch", "required": false },
+    { "id": "dt_super_block_world:mayoi_branch", "required": false },
+    { "id": "dt_super_block_world:subcon_palm_branch", "required": false }
+  ]
+}

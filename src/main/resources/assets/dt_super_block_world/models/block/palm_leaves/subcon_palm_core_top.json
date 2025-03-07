@@ -1,0 +1,6 @@
+{
+  "parent": "dynamictrees:block/smartmodel/palm/core_top",
+  "textures": {
+    "frond": "dt_super_block_world:block/subcon_palm_frond"
+  }
+}

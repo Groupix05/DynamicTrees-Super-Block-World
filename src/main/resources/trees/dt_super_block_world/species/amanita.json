@@ -1,0 +1,22 @@
+{
+  "family": "dt_super_block_world:amanita",
+  "leaves_properties": "dt_super_block_world:amanita",
+  "mega_species": "dt_super_block_world:mega_amanita",
+  "primitive_sapling": "super_block_world:amanita_sapling",
+  "growth_rate": 0.8,
+  "lowest_branch_height": 1,
+  "max_branch_radius": 24,
+  "signal_energy": 6.0,
+  "soil_longevity": 12,
+  "tapering": 0.3,
+  "up_probability": 3,
+  "environment_factors" : {
+	"#forge:is_cold": 0.75,
+	"#forge:is_dry": 0.25,
+	"#forge:is_hot": 0.5,
+	"mushroom": 1.25
+  },
+  "perfect_biomes": { "name": "super_block_world:mushroom_grasslands" },
+  "acceptable_soils": [ "dirt_like" ],
+  "features" : []
+}

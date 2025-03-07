@@ -1,0 +1,6 @@
+{
+  "multipart": [
+    { "apply": { "model": "super_block_world:block/gritzy_sand" } },
+    { "apply": { "model": "dynamictrees:block/roots" } }
+  ]
+}

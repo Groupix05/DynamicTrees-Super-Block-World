@@ -1,0 +1,7 @@
+{
+  "parent": "dynamictrees:item/branch",
+  "textures": {
+    "bark": "dt_super_block_world:block/subcon_palm_stem",
+    "rings": "dt_super_block_world:block/subcon_palm_stem"
+  }
+}

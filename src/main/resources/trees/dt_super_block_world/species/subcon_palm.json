@@ -1,0 +1,27 @@
+{
+  "type": "palm",
+  "family": "dt_super_block_world:subcon_palm",
+  "leaves_properties": "dt_super_block_world:subcon_palm",
+  "primitive_sapling": "super_block_world:subcon_palm",
+  "always_show_on_waila": true,
+  "transformable": false,
+  "sapling_shape": "block",
+  "growth_rate": 0.9,
+  "max_branch_radius": 6,
+  "signal_energy": 10.0,
+  "tapering": 0.12,
+  "environment_factors" : {
+    "cold": 0.75,
+    "dry": 1.1,
+    "hot": 1.1
+  },
+  "perfect_biomes": { "name": "super_block_world:subcon_hills" },
+  "acceptable_soils": [ "dirt_like", "sand_like" ],
+  "growth_logic_kit": {
+    "name": "palm",
+    "properties": {
+      "height_variation": 10
+    }
+  },
+  "features" : []
+}

@@ -1,0 +1,4 @@
+{
+  "primitive_soil": "super_block_world:toadstool_grass",
+  "acceptable_soils": [ "dirt_like", "fungus_like" ]
+}

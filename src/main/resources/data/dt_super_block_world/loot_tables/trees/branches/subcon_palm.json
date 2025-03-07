@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "dynamictrees:multiply_logs_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ],
+          "name": "super_block_world:subcon_palm"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "dt_super_block_world:trees/branches/subcon_palm"
+}

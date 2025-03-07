@@ -1,0 +1,9 @@
+{
+  "values": [
+    { "id": "dt_super_block_world:amanita_seed", "required": false },
+    { "id": "dt_super_block_world:fruiting_amanita_seed", "required": false },
+    { "id": "dt_super_block_world:fruiting_mayoi_seed", "required": false },
+    { "id": "dt_super_block_world:mayoi_seed", "required": false },
+    { "id": "dt_super_block_world:subcon_palm_seed", "required": false }
+  ]
+}

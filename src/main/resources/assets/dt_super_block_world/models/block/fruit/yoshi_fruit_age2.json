@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "dt_super_block_world:block/yoshi_fruit",
+		"yoshi_fruit": "dt_super_block_world:block/yoshi_fruit"
+	},
+	"elements": [
+		{
+			"from": [6, 12, 6],
+			"to": [10, 16, 10],
+			"faces": {
+				"north": {"uv": [7, 0, 11, 4], "texture": "#yoshi_fruit"},
+				"east": {"uv": [7, 0, 11, 4], "texture": "#yoshi_fruit"},
+				"south": {"uv": [7, 0, 11, 4], "texture": "#yoshi_fruit"},
+				"west": {"uv": [7, 0, 11, 4], "texture": "#yoshi_fruit"},
+				"up": {"uv": [3, 0, 7, 4], "texture": "#yoshi_fruit"},
+				"down": {"uv": [11, 0, 15, 4], "texture": "#yoshi_fruit"}
+			}
+		}
+	]
+}

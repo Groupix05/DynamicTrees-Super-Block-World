@@ -1,0 +1,10 @@
+{
+  "primitive_log": "super_block_world:amanita_log",
+  "primitive_stripped_log": "super_block_world:stripped_amanita_log",
+  "common_leaves": "dt_super_block_world:amanita",
+  "common_species": "dt_super_block_world:amanita",
+  "conifer_variants": true,
+  "generate_stripped_branch": true,
+  "generate_surface_root": true,
+  "max_branch_radius": 24
+}

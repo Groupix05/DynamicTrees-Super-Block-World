@@ -1,0 +1,28 @@
+[
+  {
+    "__comment": "Cancel standard tree features from the Mushroom Kingdom.",
+    "select": { "name": "super_block_world:.*", "tag": "#super_block_world:is_mushroom_kingdom" },
+    "cancellers": {
+      "type": "tree",
+      "namespace": "super_block_world"
+    }
+  },
+  {
+    "_comment": "Cancel regular mushroom generation from the Mushroom Kingdom.",
+    "only_if_loaded": "dynamictreesplus",
+    "select": { "name": "super_block_world:.*", "tag": "#super_block_world:is_mushroom_kingdom" },
+    "cancellers": {
+      "type": "mushroom",
+      "namespace": "minecraft"
+    }
+  },
+  {
+    "__comment": "Cancel standard cactus features from the Gritzy Desert.",
+    "only_if_loaded": "dynamictreesplus",
+    "select": { "name": "super_block_world:gritzy_desert" },
+    "cancellers": {
+      "type": "dynamictreesplus:cactus",
+      "namespace": "super_block_world"
+    }
+  }
+]

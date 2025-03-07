@@ -1,0 +1,6 @@
+{
+  "loader": "dynamictrees:large_palm_fronds",
+  "textures": {
+    "frond": "dt_super_block_world:block/subcon_palm_frond"
+  }
+}

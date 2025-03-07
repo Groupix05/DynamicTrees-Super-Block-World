@@ -1,0 +1,9 @@
+{
+  "values": [
+    { "id": "dt_super_block_world:rooty_sbw_coarse_toadstool_soil", "required": false },
+    { "id": "dt_super_block_world:rooty_sbw_gritzy_sand", "required": false },
+    { "id": "dt_super_block_world:rooty_sbw_toadstool_grass", "required": false },
+    { "id": "dt_super_block_world:rooty_sbw_toadstool_soil", "required": false },
+    { "id": "dt_super_block_world:rooty_sbw_toadstool_turf", "required": false }
+  ]
+}

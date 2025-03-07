@@ -1,0 +1,7 @@
+{
+  "loader": "dynamictrees:thick_branch",
+  "textures": {
+    "bark": "super_block_world:block/stripped_mayoi_log",
+    "rings": "super_block_world:block/stripped_mayoi_log_top"
+  }
+}

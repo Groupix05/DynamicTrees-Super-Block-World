@@ -1,0 +1,43 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "dt_super_block_world:block/yoshi_fruit",
+		"yoshi_fruit": "dt_super_block_world:block/yoshi_fruit"
+	},
+	"elements": [
+		{
+			"from": [5, 9, 5],
+			"to": [11, 15, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-1, -2, -1]},
+			"faces": {
+				"north": {"uv": [3, 10, 9, 16], "texture": "#yoshi_fruit"},
+				"east": {"uv": [3, 10, 9, 16], "texture": "#yoshi_fruit"},
+				"south": {"uv": [3, 10, 9, 16], "texture": "#yoshi_fruit"},
+				"west": {"uv": [3, 10, 9, 16], "texture": "#yoshi_fruit"},
+				"up": {"uv": [3, 4, 9, 10], "texture": "#yoshi_fruit"},
+				"down": {"uv": [9, 4, 15, 10], "texture": "#yoshi_fruit"}
+			}
+		},
+		{
+			"from": [7.5, 15, 8],
+			"to": [8.5, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [11, 12, 12, 13], "texture": "#yoshi_fruit"},
+				"south": {"uv": [11, 12, 12, 13], "texture": "#yoshi_fruit"}
+			}
+		},
+		{
+			"from": [8, 15, 7.5],
+			"to": [8, 16, 8.5],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [11, 13, 12, 14], "texture": "#yoshi_fruit"},
+				"west": {"uv": [11, 13, 12, 14], "texture": "#yoshi_fruit"}
+			}
+		}
+	]
+}

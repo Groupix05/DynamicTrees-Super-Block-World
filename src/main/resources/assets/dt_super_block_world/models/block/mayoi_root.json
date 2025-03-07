@@ -1,0 +1,6 @@
+{
+  "loader": "dynamictrees:surface_root",
+  "textures": {
+    "bark": "super_block_world:block/mayoi_log"
+  }
+}

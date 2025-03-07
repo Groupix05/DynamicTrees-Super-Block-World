@@ -1,0 +1,45 @@
+{
+  "family": "dt_super_block_world:mayoi",
+  "leaves_properties": "dt_super_block_world:mayoi",
+  "mega_species": "dt_super_block_world:mega_mayoi",
+  "primitive_sapling": {
+    "sapling_item": "super_block_world:yoshi_fruit",
+    "sapling_to_seed_extra_ingredient": "super_block_world:mayoi_sapling",
+    "can_craft_seed_to_sapling": false
+  },
+  "drop_seeds": true,
+  "generate_seed": true,
+  "generate_sapling": true,
+  "growth_rate": 0.8,
+  "lowest_branch_height": 3,
+  "max_branch_radius": 24,
+  "signal_energy": 10.0,
+  "soil_longevity": 12,
+  "tapering": 0.3,
+  "up_probability": 5,
+  "environment_factors" : {
+	"#forge:is_cold": 0.75,
+	"#forge:is_dry": 0.25,
+	"#forge:is_hot": 0.5,
+	"mushroom": 1.25
+  },
+  "perfect_biomes": { "name": "super_block_world:mushroom_grasslands" },
+  "acceptable_soils": [ "dirt_like" ],
+  "fruits": [ "dt_super_block_world:yoshi_fruit" ],
+  "features" : [
+    {
+      "name": "alt_leaves",
+      "properties": {
+        "alternative_leaves": "dt_super_block_world:fruiting_mayoi",
+        "place_chance": 0.15
+      }
+    },
+    {
+      "name": "fruit",
+      "properties": {
+        "fruit": "dt_super_block_world:yoshi_fruit",
+        "fruiting_radius": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "dynamictrees:item/branch",
+  "textures": {
+    "bark": "super_block_world:block/mayoi_log",
+    "rings": "super_block_world:block/mayoi_log_top"
+  }
+}

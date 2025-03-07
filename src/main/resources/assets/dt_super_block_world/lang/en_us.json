@@ -1,0 +1,22 @@
+{
+  "tooltip.waila.crop_growth": "Growth: %s",
+  "tooltip.waila.crop_mature": "Mature",
+
+  "block.dt_super_block_world.amanita_branch": "Amanita Tree",
+  "block.dt_super_block_world.mayoi_branch": "Mayoi Tree",
+  "block.dt_super_block_world.subcon_palm_branch": "Palm Tree",
+
+  "species.dt_super_block_world.amanita": "Amanita",
+  "species.dt_super_block_world.fruiting_amanita": "Fruiting Amanita",
+  "species.dt_super_block_world.fruiting_mayoi": "Fruiting Mayoi",
+  "species.dt_super_block_world.mayoi": "Mayoi",
+  "species.dt_super_block_world.mega_amanita": "Mega Amanita",
+  "species.dt_super_block_world.mega_mayoi": "Mega Mayoi",
+  "species.dt_super_block_world.subcon_palm": "Subcon Palm",
+
+  "item.dt_super_block_world.amanita_seed": "Amanita Acorn",
+  "item.dt_super_block_world.fruiting_amanita_seed": "Fruiting Amanita Seeds",
+  "item.dt_super_block_world.fruiting_mayoi_seed": "Fruiting Mayoi Seeds",
+  "item.dt_super_block_world.mayoi_seed": "Mayoi Acorn",
+  "item.dt_super_block_world.subcon_palm_seed": "Subcon Palm Seed"
+}

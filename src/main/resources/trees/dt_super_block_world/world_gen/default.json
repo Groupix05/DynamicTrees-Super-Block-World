@@ -1,0 +1,88 @@
+[
+  {
+    "_comment": "Generates Subcon Palms in the Subcon Hills.",
+    "select": {
+      "name": "super_block_world:subcon_hills"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dt_super_block_world:subcon_palm": 1
+        }
+      },
+      "density": 0.25,
+      "chance": 0.25
+    }
+  },
+  {
+    "_comment": "Generates Amanita trees in the Mushroom Grasslands.",
+    "select": {
+      "name": "super_block_world:mushroom_grasslands"
+    },
+    "apply": {
+      "species": {
+        "random": {
+		  "null": 20,
+          "dt_super_block_world:amanita": 68,
+          "dt_super_block_world:fruiting_amanita": 4,
+          "dt_super_block_world:mega_amanita": 1,
+          "dt_super_block_world:mayoi": 4,
+          "dt_super_block_world:fruiting_mayoi": 2,
+          "dt_super_block_world:mega_mayoi": 1
+        }
+      },
+      "density": 0.4,
+      "chance": 0.18
+    }
+  },
+  {
+    "_comment": "Generates Giant Red Mushrooms in the Mushroom Grasslands.",
+    "only_if_loaded": "dynamictreesplus",
+    "select": {
+      "name": "super_block_world:mushroom_grasslands"
+    },
+    "apply": {
+      "species" : {
+        "method" : "splice_before",
+        "random" : {
+          "dynamictreesplus:red_mushroom": 25,
+          "..." : 75
+        }
+      }
+    }
+  },
+  {
+    "_comment": "Generates cactus in the Gritzy Desert.",
+    "only_if_loaded": "dynamictreesplus",
+    "select": {
+      "name": "super_block_world:gritzy_desert"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dynamictreesplus:pillar_cactus": 6,
+          "dynamictreesplus:pipe_cactus": 1,
+          "dynamictreesplus:saguaro_cactus": 1
+        }
+      },
+      "density": { "math": { "add": [ { "mul": [ "noise", 0.6 ] },  0.4 ] } },
+      "chance": 0.1
+    }
+  },
+  {
+    "_comment": "Generates Ecologic's cactus in the Gritzy Desert.",
+    "only_if_loaded": [ "dynamictreesplus", "dtecologics" ],
+    "select": {
+      "name": "super_block_world:gritzy_desert"
+    },
+    "apply": {
+      "species" : {
+        "method" : "splice_before",
+        "random" : {
+          "dtecologics:prickly_pear_cactus" : 1,
+          "..." : 10
+        }
+      }
+    }
+  }
+]
