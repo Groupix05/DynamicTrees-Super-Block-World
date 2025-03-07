@@ -1,13 +1,13 @@
 license="MIT"
 modLoader="javafml"
 loaderVersion="[47,)"
-issueTrackerURL="https://github.com/DynamicTreesTeam/DynamicTrees/issues"
+issueTrackerURL="https://github.com/Groupix05/DynamicTrees-Super-Block-World/issues"
 
 [[mods]]
 modId="dt_super_block_world"
 version="${file.jarVersion}"
 displayName="Dynamic Trees for Super Block World"
-displayURL="https://www.curseforge.com/minecraft/mc-mods/dynamictrees"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-super-block-world"
 logoFile="logo.png"
 credits=""
 authors="WenXin2"
